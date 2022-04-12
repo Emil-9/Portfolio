@@ -1,0 +1,9 @@
+.sectionContainer {
+  padding: 10% 15%;
+  margin: 0 auto;
+}
+.mainContainer {
+  height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}

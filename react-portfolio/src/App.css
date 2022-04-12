@@ -1,20 +1,19 @@
 @font-face {
   font-family: "Assistant-Regular";
-  src: url("./fonts/Assistant-Regular.ttf") format("ttf");
+  src: url("./assets/fonts/Assistant-Regular.ttf") format("ttf");
 }
 @font-face {
   font-family: "Assistant-Medium";
-  src: url("./fonts/Assistant-Medium.ttf") format("ttf");
+  src: url("./assets/fonts/Assistant-Medium.ttf") format("ttf");
 }
 @font-face {
   font-family: "Assistant-SemiBold";
-  src: url("./fonts/Assistant-SemiBold.ttf") format("ttf");
+  src: url("./assets/fonts/Assistant-SemiBold.ttf") format("ttf");
 }
 @font-face {
   font-family: "Assistant-Bold";
-  src: url("./fonts/Assistant-Bold.ttf") format("ttf");
+  src: url("./assets/fonts/Assistant-Bold.ttf") format("ttf");
 }
-
 h1,
 h2,
 h3,
@@ -25,9 +24,27 @@ a,
 li,
 ul,
 div {
+  color: #1d364e;
   font-family: "Assistant-Regular";
 }
+h1 {
+  font-size: 6rem;
+  font-family: "Assistant-Medium";
+  margin: 10px auto;
+}
 
+h2 {
+  font-size: 4rem;
+  margin: 10px auto;
+}
+h3 {
+  font-size: 3rem;
+  margin: 10px auto;
+}
+h4 {
+  font-size: 1.7rem;
+  margin: 10px auto;
+}
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -41,4 +58,33 @@ a:focus-visible {
 }
 a:hover {
   color: #f9da82;
+}
+.opacity_8 {
+  opacity: 0.8;
+}
+.opacity_9 {
+  opacity: 0.9;
+}
+i {
+  font-size: 50px;
+  color: #1d364e;
+}
+i:hover {
+  color: #ffde59;
+  box-shadow: 0px 13px 9px -8px #ffde59;
+}
+.disp-flex {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+}
+.upper-case { 
+  text-transform: uppercase;
+}
+.capitalize { 
+  text-transform: capitalize;
+}
+.padding-t-20 { 
+  padding-top: 20px;
 }
