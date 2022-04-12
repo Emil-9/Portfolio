@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Assistant-Regular";
-  src: url("../../fonts/Assistant-Regular.ttf");
+  src: url("../../assets/fonts/Assistant-Regular.ttf");
 }
 @font-face {
   font-family: "Assistant-Medium";
-  src: url("../../fonts/Assistant-Medium.ttf");
+  src: url("../../assets/fonts/Assistant-Medium.ttf");
 }
 .navbar-header {
   position: fixed;
