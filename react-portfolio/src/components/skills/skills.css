@@ -1,0 +1,11 @@
+.skills-container .row .column p{
+  color: #f6f6f6;
+}
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.column {
+  margin: 20px;
+  text-align: center;
+}
