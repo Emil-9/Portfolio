@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <SectionPage id="aboutSection" pageColor="#f6f6f6" child={<About />} />
-      <SectionPage id="experienceSection" pageColor="#1d364e" child={<About />} />
+      <SectionPage id="skillsSection" pageColor="#1d364e" child={<></>} />
       <SectionPage id="contactSection" pageColor="#f6f6f6" child={<><Contact /><Footer /></>} />
 
     </div>

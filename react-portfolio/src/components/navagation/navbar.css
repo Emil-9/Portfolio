@@ -19,6 +19,7 @@
   border-top-left-radius: 5px;
   width: 70%;
   background-color: #1d364e;
+  z-index: 3;
 }
 .logo-container {
   width: 50px;
