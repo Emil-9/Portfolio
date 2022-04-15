@@ -1,34 +1,43 @@
 import "./hobbies.css";
-import C1 from "../../assets/imgs/coffee/C (1).PNG";
-import C2 from "../../assets/imgs/coffee/C (2).PNG";
-import C3 from "../../assets/imgs/coffee/C (3).PNG";
-import C4 from "../../assets/imgs/coffee/C (4).PNG";
+import Coffee from "../../assets/imgs/hobbies/Coffee.PNG";
+import Art from "../../assets/imgs/hobbies/Art.jpg";
+import Music from "../../assets/imgs/hobbies/Music.jpg";
+import TV from "../../assets/imgs/hobbies/TV.jpg";
 
 const Hobbies = () => {
+  const imgArray = [
+    {
+      item: Coffee,
+      title: "Coffee	☕",
+      text: "Former Barista with 4 years of experience.",
+    },
+    {
+      item: Art,
+      title: "Art ✏️",
+      text: "I love to draw with pencils and charcoal.",
+    },
+    { item: Music, title: "Music 📻", text: "To Set up the mood any time." },
+    {
+      item: TV,
+      title: "Movies/Anime 🎬",
+      text: "My top ratings: GOT, Friends and Fullmetal Alchemist.",
+    },
+  ];
   return (
     <div className="hobbies-container">
-      <h3 className="Capitalize text-center">interests and hobbies</h3>
-      <div className="row-md-2">
-        <div className="col-med-6">
-            <img src={C1} alt="" className=""/>
-        </div>
-        <div className="col-med-6 float-left">
-          <h5 className=" color-white">Coffee</h5>
-          <p className=" color-white">
-            Former Barista with 5 years of experience <br /> I love every thing
-            about coffee
-          </p>
-        </div>
-        <div className="col-med-6">
-            <img src="" alt="" className=""/>
-        </div>
-        <div className="col-med-6">
-          <h5 className=" color-white">Coffee</h5>
-          <p className=" color-white">
-            Former Barista with 5 years of experience <br /> I love every thing
-            about coffee
-          </p>
-        </div>
+      <h4 className="square-peg-font capitalize text-center">
+        interests and hobbies
+      </h4>
+      <div className="row text-center">
+        {imgArray.map((e, key) => (
+          <div key={key} className="pic-frame">
+            <img src={e.item} alt="" className="filtered-img" />
+            <div className="hobbies-description text-center ">
+              <h5>{e.title}</h5>
+              <p>{e.text}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

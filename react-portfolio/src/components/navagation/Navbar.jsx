@@ -8,9 +8,9 @@ const Navbar = () => {
       </div>
       <ul className="navbar-items-list">
         <li className="navbar-item">
-            <a href="#aboutSection" className="nav-link">
-              About Me
-            </a>
+          <a href="#aboutSection" className="nav-link">
+            About Me
+          </a>
         </li>
         <li className="navbar-item">
           <a href="#skillsSection" className="nav-link">
@@ -18,9 +18,9 @@ const Navbar = () => {
           </a>
         </li>
         <li className="navbar-item">
-            <a href="#experienceSection" className="nav-link">
-              Experience
-            </a>
+          <a href="#experienceSection" className="nav-link">
+            Experience
+          </a>
         </li>
         <li className="navbar-item">
           <a href="#hobbiesSection" className="nav-link">

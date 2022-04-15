@@ -6,6 +6,10 @@
   font-family: "Assistant-Medium";
   src: url("../../assets/fonts/Assistant-Medium.ttf");
 }
+@font-face {
+  font-family: "SquarePeg";
+  src: url("../../assets/fonts/SquarePeg-Regular.ttf");
+}
 .navbar-header {
   position: fixed;
   top: 30px;

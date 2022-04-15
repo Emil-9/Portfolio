@@ -2,12 +2,17 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <h2 className="capitalize">Let's get in touch</h2>
+      <h2 className="square-peg-font capitalize">Let's get in touch</h2>
       <p className="capitalize">here's my contact links, just drop a message</p>
       <ul className="disp-flex padding-t-20">
         <li>
           <a target="-blank" href="mailto:emilioaljoudeh@gmail.com">
-            <i className="bi-google" role="img" aria-label="Google" size="20px"></i>
+            <i
+              className="bi-google"
+              role="img"
+              aria-label="Google"
+              size="20px"
+            ></i>
           </a>
         </li>
         <li>

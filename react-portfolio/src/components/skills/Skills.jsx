@@ -15,7 +15,7 @@ import { ReactComponent as NPM } from "./icons/NPM.svg";
 const Skills = () => {
   return (
     <div className="skills-container">
-      <h4 className="capitalize">Technologies that I use</h4>
+      <h4 className="square-peg-font capitalize">Technologies that I use</h4>
       <div className="row">
         <Columns name="Matlab" child={<Matlab className="skills-icons" />} />
         <Columns

@@ -1,9 +1,9 @@
 .sectionContainer {
   padding: 0% 15%;
-  margin: 10% auto;
+  margin: 10% auto 0 auto;
 }
 .mainContainer {
   height: 100vh;
   overflow: hidden;
-position: relative;  
+  position: relative;
 }
