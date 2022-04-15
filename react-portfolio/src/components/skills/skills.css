@@ -1,5 +1,10 @@
-.skills-container .row .column h5 {
+.skills-container .row .column h5,
+.skills-container h4 {
+  text-align: center;
   color: #f6f6f6;
+}
+.skills-container h4 {
+margin-bottom: 15px;
 }
 .row {
   display: grid;
@@ -12,12 +17,11 @@
 .skills-icons {
   width: 50px;
   height: 50px;
-  padding: 5px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
+  /* padding: 5px; */
+  /* border-radius: 50%; */
+  /* transition: all 0.3s ease; */
 }
-.skills-icons::after {
-}
+/* 
 .skills-icons:hover {
   animation-name: luminum;
   animation-duration: 2s;
@@ -57,4 +61,4 @@
   100% {
     box-shadow: 3px -2px 1px -2px #f6f6f6;
   }
-}
+} */

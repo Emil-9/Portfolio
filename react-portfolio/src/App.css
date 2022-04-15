@@ -88,3 +88,9 @@ i:hover {
 .padding-t-20 { 
   padding-top: 20px;
 }
+.text-center { 
+  text-align: center;
+}
+.color-white { 
+  color: #f6f6f6;
+}

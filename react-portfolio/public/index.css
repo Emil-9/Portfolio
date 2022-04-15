@@ -6,14 +6,18 @@ html {
 }
 ::-webkit-scrollbar {
   width: 8px;
+  background: transparent;
+
 }
 ::-webkit-scrollbar-track {
   border-radius: 10px;
+  background: transparent;
+
 }
 ::-webkit-scrollbar-thumb {
-  background: #426d49;
+  background: transparent;
   border-radius: 8px;
 }
-::-webkit-scrollbar-thumb:hover{
+/* ::-webkit-scrollbar-thumb:hover{
   background: #f9da82;
-}
+} */
