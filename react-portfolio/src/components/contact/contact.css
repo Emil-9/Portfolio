@@ -1,4 +1,6 @@
-.contact-container { 
-    text-align: center;
-    
+.contact-container {
+  text-align: center;
+}
+.contact-container ul {
+  padding-top: 6%;
 }

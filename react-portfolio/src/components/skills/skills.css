@@ -1,0 +1,64 @@
+.skills-container .row .column h5,
+.skills-container h4 {
+  text-align: center;
+  color: #f6f6f6;
+}
+.skills-container h4 {
+margin-bottom: 15px;
+}
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.column {
+  margin: 5px 20px;
+  text-align: center;
+}
+.skills-icons {
+  width: 50px;
+  height: 50px;
+  /* padding: 5px; */
+  /* border-radius: 50%; */
+  /* transition: all 0.3s ease; */
+}
+/* 
+.skills-icons:hover {
+  animation-name: luminum;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes luminum {
+  0% {
+    box-shadow: 3px -2px 1px -2px #f6f6f6;
+  }
+  10% {
+    box-shadow: 3px -1px 1px -2px #f6f6f6;
+  }
+  20% {
+    box-shadow: 3px 0px 1px -2px #f6f6f6;
+  }
+  30% {
+    box-shadow: 3px 1px 1px -2px #f6f6f6;
+  }
+  40% {
+    box-shadow: 3px 2px 1px -2px #f6f6f6;
+  }
+  50% {
+    box-shadow: -1px 2px 1px -2px #f6f6f6;
+  }
+  60% {
+    box-shadow: -2px 2px 1px -2px #f6f6f6;
+  }
+  70% {
+    box-shadow: -3px 2px 1px -2px #f6f6f6;
+  }
+  80% {
+    box-shadow: -3px 1px 1px -2px #f6f6f6;
+  }
+  90% {
+    box-shadow: -3px 0px 1px -2px #f6f6f6;
+  }
+  100% {
+    box-shadow: 3px -2px 1px -2px #f6f6f6;
+  }
+} */
